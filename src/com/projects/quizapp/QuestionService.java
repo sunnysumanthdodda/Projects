@@ -33,7 +33,7 @@ public class QuestionService {
             String userAnswer = answer[i];
             if(actualAnswer.equals(userAnswer)) score++;
         }
-        if(score==questions.length) System.out.println("Congratulations..!! You score is : "+score+"/"+score);
+        if(score==questions.length) System.out.println("Congratulations..!! Your score is : "+score+"/"+score);
         else System.out.println("Your score is : "+score+"/"+questions.length+"\n"+"Better luck next time..!");
     }
 }
